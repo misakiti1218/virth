@@ -282,6 +282,11 @@ footer {
     --h-padding: 2rem;
   }
 
+  .process-bg {
+    background-size: 160% auto;
+    background-position: right;
+  }
+
   .process-item {
     width: 75%;
     margin: 0 auto;
@@ -295,7 +300,7 @@ footer {
 
   .gallery-img {
     width: calc(50% - 1rem);
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 2rem 0;
     border-radius: 0.5rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
   }
