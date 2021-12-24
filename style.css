@@ -321,6 +321,35 @@ footer {
     flex-flow: column nowrap;
   }
 
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 8rem 0 0;
+    margin: -8rem 0 0;
+  }
+
+  .top-txt {
+    width: auto;
+    padding: 2rem;
+    position: absolute;
+    top: auto; right: auto; bottom: 16rem; left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 1rem rgba(255, 255, 255, 0.8);
+    font-size: 1.75rem;
+    z-index: 10;
+  }
+
+  .ti-ar {
+    width: 100%;
+  }
+
+  .ti-ar::before {
+    content: "";
+    display: block;
+    padding: 66.6666% 0 0 0;
+    position: relative;
+  }
+
   /* .section-top {
     flex-flow: column;
   } */
