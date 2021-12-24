@@ -144,22 +144,30 @@ footer {
 }
 
 .top-txt {
-  width: 36%;
+  width: auto;
   margin: auto 0;
-  font-size: 1.25rem;
+  padding: 2rem;
+  font-size: 2rem;
   font-weight: bold;
   line-height: 2;
   display: flex;
+  position: absolute;
+  top: auto; right: auto; bottom: auto; left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 0 1rem rgba(255, 255, 255, 0.8);
+  font-size: 1.75rem;
+  z-index: 10;
 }
 
 .ti-ar {
-  width: 64%;
+  width: 66.6666%;
+  margin: 0 0 0 auto;
 }
 
 .ti-ar::before {
   content: "";
   display: block;
-  padding: 75% 0 0 0;
+  padding: 66.6666% 0 0 0;
   position: relative;
 }
 
@@ -328,17 +336,6 @@ footer {
     margin: -8rem 0 0;
   }
 
-  .top-txt {
-    width: auto;
-    padding: 2rem;
-    position: absolute;
-    top: auto; right: auto; bottom: 16rem; left: 0;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-shadow: 0 0 1rem rgba(255, 255, 255, 0.8);
-    font-size: 1.75rem;
-    z-index: 10;
-  }
-
   .ti-ar {
     width: 100%;
   }
@@ -348,6 +345,12 @@ footer {
     display: block;
     padding: 66.6666% 0 0 0;
     position: relative;
+  }
+
+  .top-txt {
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    top: 25%;
   }
 
   /* .section-top {
