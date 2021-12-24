@@ -348,8 +348,9 @@ footer {
   }
 
   .top-txt {
-    padding: 1.5rem;
+    padding: 1.25rem;
     font-size: 1.25rem;
+    line-height: 1.5;
     top: 25%;
   }
 
